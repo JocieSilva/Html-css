@@ -1,0 +1,158 @@
+
+
+@font-face {
+  font-family: android ;
+  src: url(fontes/idroid.otf);
+ }
+
+ *{
+  margin: 0px;
+  padding: 0px;
+ }
+ 
+ body {
+background-color: #e2e19fd0;
+font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ #header {
+    background-image: linear-gradient( to bottom, #0bd462, #043d1d);
+    text-align: center;
+    color: #ffffff;
+ }
+
+ #header > h1 {
+  padding: 5px 10px 0px 10px;
+ }
+ #header > p{
+  margin-top: 5px;
+ }
+ #menu {
+   text-align: left;
+   text-decoration: none;
+    margin-top: 35px;  
+ }
+ #menu > a {
+   color:  rgba(180, 231, 180, 0.89);
+   text-decoration: none;
+   padding-right: 3px;
+   margin-left: 10px;
+  border-radius: 2px;
+ }
+ #menu > a:hover {
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.349);
+
+
+ }
+ main {
+  min-width: 300px;
+  max-width: 1000px;
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+  margin-bottom: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+ }
+
+ main img {
+  width: 100%;
+ }
+
+ main img.pequena {
+  display: block;
+ max-width: 350px;
+  margin: auto;
+ 
+ }
+ h1.principal {
+  margin-top: 15px ;
+  margin-bottom: 15px;
+  font-family: android, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #0f331f;
+ }
+
+ h2 {
+  margin-top: 15px ;
+  margin-bottom: 15px;
+  font-family: android, Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  background-image: linear-gradient( to right, rgba(82, 221, 82, 0.425), #fff );
+  color: #0f331f;
+  border-radius: 2px;
+ }
+
+ main p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-indent: 20px;
+  text-align: justify;
+  line-height: 2em;
+  font-size: 1em;
+ }
+  main p > a{
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: #14ee72a6;
+  color: #043519;
+ }
+
+main  p > a:hover {
+  text-decoration: underline;
+  color: #054d24;
+ }
+
+.video {
+  background-color: #043519;
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 56.5%;
+  position: relative;
+ }
+ .video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height:90%;
+
+
+ }
+aside{
+ background-color: #29eb7de1;
+ padding: 10px;
+ border-radius: 5px;
+}
+
+aside ul {
+  list-style-type: ;
+  list-style-position: inside;
+  columns: 2;
+}
+
+aside h3 {
+  background-color: #043519;
+  color: #ffffff;
+  margin: -10px -10px 0px -10px;
+  padding: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+ footer {
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  background-color: rgb(68, 67, 67);
+  color: #fff;
+  
+ }
+ 
+ footer a {
+  color: #ffffff;
+ }
+
