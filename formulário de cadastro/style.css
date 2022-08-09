@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: rgb(253, 242, 253);
+}
+
+header h1 {   
+    padding: 10px 0px 0px 40px;
+    box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.351);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.167);
+    color: rgba(0, 0, 0, 0.787);
+    height: 35px;
+    background-color:#8d4aa8;
+    font-size: 20px;  
+}
+
+h1 > nav {
+    color: rgb(20, 251, 20);
+    display: inline-block;
+    margin: 0px -40px 0px;
+}
+
+main p {
+    color: red;
+    margin: 0px 0px 50px 40px;
+}
+
+main div {
+    padding-left: 20px;
+    margin: 30px 30px 0px 30px;
+}
+
+label{
+    margin: 0;
+}
+
+nav > div {
+margin-top: -20px;
+}
+
+nav{
+    padding-left: 45px;
+    margin: 30px;
+   
+}
+.email,
+.senha {
+    border-radius: 7px;
+    height: 22px;
+    width: 300px;
+    margin: 0px 100px 20px 0px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+#cep,
+#número{
+    width: 70px;
+    border-radius: 7px;
+}
+
+.border-radius {
+    height: 20px;
+    border-radius: 7px;
+}
+
+#botao {
+    
+    margin-left:70px;
+    font-weight: bold;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(20, 251, 20);
+    color: #8020a5;
+}
+
+#marque {
+    width: 40px;
+    margin-left: 60px;
+}
+
+
+footer p {
+    margin-bottom: 0;
+    color: #ffff;
+    font-size: 1em;
+    text-align: center;
+    background-color: rgba(7, 7, 7, 0.501);
+}
+
+footer p > a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+footer p > a:hover {
+    color: #000;
+    text-decoration: underline;
+}
